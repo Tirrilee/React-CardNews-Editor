@@ -13,7 +13,7 @@ class App extends Component {
       super()
       
       this.state = {
-        // 미디어 권한 여부
+        // 토글 on/off
         collapsed: true,
       }
       this.toggleNavbar = this.toggleNavbar.bind(this)

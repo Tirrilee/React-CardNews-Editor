@@ -1,0 +1,37 @@
+.canvas-block{
+	position: absolute;
+	width: 440px;
+	height: 440px;
+}
+.canvas-toolbar{
+	width: 440px;
+	height: 50px;
+	background: rgb(255,255,255);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.canvas-toolbar img{
+	width: 24px;
+    height: 24px;
+    opacity: 0.3;
+}
+.canvas-toolbar .leftbtn{
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding: 2px;
+    border-top-left-radius: 8px;
+    cursor: pointer;
+}
+.canvas-toolbar .rightbtn{
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding: 2px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    background: #dc3545;
+}
+.canvas-toolbar .tool-btn:hover{
+    filter: brightness(90%);
+}
