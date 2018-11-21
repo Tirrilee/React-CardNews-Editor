@@ -30,15 +30,13 @@ class App extends Component {
           collapsed={this.state.collapsed}
           toggleNavbar={this.toggleNavbar}
         />
-        <div>
-          <Switch>
-            <Route exact path="/" component={EditorPage} />
-            { /*
-            <Route path="/features" component={FeaturePage} />
-            <Route path="" component={NotFoundPage} /> 
-            */}
-          </Switch>
-        </div>
+        <Switch>
+          <Route exact path="/" component={EditorPage} />
+          { /*
+          <Route path="/features" component={FeaturePage} />
+          <Route path="" component={NotFoundPage} /> 
+          */}
+        </Switch>
       </div>
     );
   }
