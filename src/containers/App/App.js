@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route exact path="/" component={HomePage} />
+            <Route exact path="/" component={EditorPage} />
             <Route path="/edit" component={EditorPage} />
             { /*
             <Route path="/features" component={FeaturePage} />
