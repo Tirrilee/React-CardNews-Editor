@@ -12,7 +12,7 @@ class ImageCanvas extends Component {
       console.log(img)
 
       img.onload = () => {
-        ctx.drawImage(img, 0, 0, 600, 600)
+        ctx.drawImage(img, 0, 0, 500, 500)
         ctx.font = "40px Courier"
         ctx.fillText(this.props.text, 210, 75)
       }
@@ -24,7 +24,7 @@ class ImageCanvas extends Component {
       var {img, ...props} = this.props
       return(
         <div>
-          <canvas ref="canvas" width={600} height={600} />
+          <canvas ref="canvas" width={500} height={500} />
           <img ref="image" src={dog} className="hidden" />
         </div>
       )
