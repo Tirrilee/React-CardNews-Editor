@@ -1,37 +1,77 @@
+.canvas-wrap{
+    height: 490px;
+    margin:auto;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.12);
+}
 .canvas-block{
 	position: absolute;
-	width: 440px;
-	height: 440px;
+}
+.canvas-inner{
+    position: relative;
+    width: 100%;
 }
 .canvas-toolbar{
-	width: 440px;
-	height: 50px;
+	height: 48px;
 	background: rgb(255,255,255);
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
 .canvas-toolbar img{
 	width: 24px;
     height: 24px;
-    opacity: 0.3;
 }
 .canvas-toolbar .leftbtn{
-    height: 50px;
-    width: 50px;
+    position: relative;
+    height: 48px;
+    width: 48px;
     float: left;
-    padding: 2px;
-    border-top-left-radius: 8px;
+    padding: 11px;
+    border-top-left-radius: 4px;
     cursor: pointer;
+    background: rgb(3, 169, 244);
 }
 .canvas-toolbar .rightbtn{
-    height: 50px;
-    width: 50px;
+    position: relative;
+    height: 48px;
+    width: 48px;
     float: right;
-    padding: 2px;
-    border-top-right-radius: 8px;
+    padding: 10px;
+    border-top-right-radius: 4px;
     cursor: pointer;
-    background: #dc3545;
+    background: rgb(220, 53, 69);
 }
 .canvas-toolbar .tool-btn:hover{
     filter: brightness(90%);
+}
+.canvas-infobar{
+    padding: 5px 0px;
+    height: 40px;
+}
+.canvas-infobar span, .canvas-infobar a{
+    color: rgb(134, 142, 150) !important;
+    font-weight: 500;
+}
+.canvas-infobar span{
+    font-size: 20px;
+}
+.canvas-infobar a{
+    font-size: 16px;
+}
+#InfoID{
+    float: left;
+}
+span.circle{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    border-radius: 100%;
+    margin: 0 2px;
+    top: 1px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.12);
+}
+.canvas-infobar .info{
+    float: right;
+    color: rgb(212, 212, 212);
 }

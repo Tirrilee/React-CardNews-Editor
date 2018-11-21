@@ -1,0 +1,25 @@
+.EditorPage{
+	width: 100%;
+	-webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#edit-inner{
+	height: -webkit-fill-available;
+	transition: all 1.5s linear;
+    max-width: 800px;
+    margin: 0 auto 120px auto;
+}
+.editor-list{
+    float: left;
+    width: 70%;
+    left: 0;
+    text-align: center;
+    padding-top: 80px;
+}
+#edit-inner .btn{
+	width: 100px;
+	height: 100px;
+}
